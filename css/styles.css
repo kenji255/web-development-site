@@ -7,7 +7,6 @@ body {
   font-weight: 400;
   font-size: 1.4rem;
   color: #444444;
-  -webkit-text-size-adjust: 100%;
 }
 
 h1 {
@@ -98,7 +97,6 @@ a:hover {
 
 .title_container {
   max-height: 100%;
-
 }
 
 /********** BEGIN MENU BUTTON SECTION **********/
@@ -236,7 +234,11 @@ a:hover {
   height: 100%;
 }
 
-@media (max-width: 878px) {
+@media (max-width: 1170px) {
+
+  .middle-container {
+    margin: 50px 10% 50px 10%;
+  }
 
   .coding-image {
     float: none;
