@@ -77,8 +77,8 @@ a:hover {
 } */
 
 .wave-container {
+  margin-top: -10px;
   position: relative;
-  /* background: #09F; */
   color: #FFF;
   text-align: center;
   overflow: hidden;
@@ -280,6 +280,7 @@ a:hover {
 }
 
 .bottom-wave-container {
+  margin-bottom: -10px;
   line-height: 0;
 }
 
